@@ -7,7 +7,7 @@ class Triangle
   end
 
   def kind
-    if @lengthA <= 0 || @lengthB <=0 || @lengthC <= 0
+    if @lengthA <= 0 || @lengthB <=0 || @lengthC <= 0 || (@lengthA+@lengthB <= @lengthC) || (@lengthC+@lengthB <= @lengthA) || (@lengthC+@lengthA <= @lengthB)
         raise TriangleError
     end
 
