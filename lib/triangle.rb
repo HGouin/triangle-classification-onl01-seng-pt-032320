@@ -9,5 +9,6 @@ class Triangle
   def kind
     if lengthA = lengthB && lengthA = lengthC
       return :equilateral
+    end
   end
 end
