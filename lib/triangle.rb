@@ -7,6 +7,7 @@ class Triangle
   end
 
   def kind
-
+    if lengthA = lengthB && lengthA = lengthC
+      return :equilateral
   end
 end
