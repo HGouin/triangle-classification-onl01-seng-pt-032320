@@ -10,5 +10,8 @@ class Triangle
     if @lengthA = @lengthB && @lengthA = @lengthC
       return :equilateral
     end
+    if @lengthA != @lengthB && @lengthB = @lengthC
+      return :isosceles
+    end
   end
 end
