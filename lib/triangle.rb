@@ -10,7 +10,7 @@ class Triangle
     if @lengthA <= 0 || @lengthB <=0 || @lengthC <= 0
         raise TriangleError
     end
-    
+
     if @lengthA == @lengthB && @lengthA == @lengthC
       return :equilateral
     end
@@ -21,6 +21,6 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    
+
   end
 end
