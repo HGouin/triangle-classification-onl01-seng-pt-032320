@@ -10,7 +10,7 @@ class Triangle
     if @lengthA == @lengthB && @lengthA == @lengthC
       return :equilateral
     end
-    if (@lengthA != @lengthB && @lengthB == @lengthC) || (@lengthA == @lengthC && @lengthC != @lengthB) || (@lengthB != @lengthC && @lengthA == @lengthB)
+    if @lengthA == @lengthB || @lengthB == @lengthC || @lengthC == @lengthA
       return :isosceles
     end
     if @lengthA != @lengthB && @lengthA != @lengthC && @lengthB != @lengthC
