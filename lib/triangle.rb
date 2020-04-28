@@ -13,7 +13,7 @@ class Triangle
     if @lengthA != @lengthB && @lengthB = @lengthC && @lengthA = @lengthC
       return :isosceles
     end
-    if @lengthA != @lengthB && @lengthA != @lengthC
+    if @lengthA != @lengthB || @lengthA != @lengthC
       return :scalene
     end
   end
