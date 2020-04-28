@@ -7,7 +7,7 @@ class Triangle
   end
 
   def kind
-    if @lengthA = @lengthB && @lengthA = @lengthC
+    if @lengthA == @lengthB && @lengthA == @lengthC
       return :equilateral
     end
     if @lengthA != @lengthB && @lengthB = @lengthC && @lengthA = @lengthC
