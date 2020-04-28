@@ -6,6 +6,5 @@ class Triangle
     @lengthA = lengthA
     @lengthB = lengthB
     @lengthC = lengthC
-
   end
 end
